@@ -12,14 +12,15 @@ import MBProgressHUD
 
 class LogInViewController: UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var txtfEmailSignIn: LoginTextField!
-    @IBOutlet weak var txtfPassSignIn: LoginTextField!
+    @IBOutlet weak var s: UILabel!
+    @IBOutlet weak var txtfEmail: UITextField!
+    @IBOutlet weak var txtfPass: UITextField!
     var loadingNotification: MBProgressHUD!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let dismiss: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SignInViewController.DismissKeyboard))
+        let dismiss: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LogInViewController.DismissKeyboard))
         view.addGestureRecognizer(dismiss)
         observerKeyboard()
     }
@@ -37,12 +38,12 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     }
     //Ẩn Progress
     func hideProgress() {
-        loadingNotification.hide(animated: true)
+       loadingNotification.hide(animated: true)
     }
     //Xử lí sự kiện khi nhấn btnLogin
     @IBAction func btnLogin_Act(_ sender: Any) {
-        let email: String = txtEmailSignIn.text!
-        let password: String = txtPassSignIn.text!
+        let email: String = txtfEmail.text!
+        let password: String = txtfPass.text!
         
         if (email.isEmpty || password.isEmpty) {
             showAlertDialog(message: "Hãy điền đầy đủ thông tin");
@@ -54,11 +55,11 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
             else {
                 
                 //Hiện progress
-                self.showProgress()
+             //   self.showProgress()
                 Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
                     
                     //Ẩn progress
-                    self.hideProgress()
+               //     self.hideProgress()
                     if (error == nil) {
                         let srcUserInfo = self.storyboard?.instantiateViewController(withIdentifier: "userInfoId") as! UserInfoViewController
                         self.present(srcUserInfo, animated: true)
@@ -86,17 +87,17 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     //MARK: - Show, Hide Keyboard
     //Focus, quay lại textField
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        if txtEmailSignIn.isEditing {
-            txtPassSignIn.becomeFirstResponder()
+        if txtfEmail.isEditing {
+            txtfPass.becomeFirstResponder()
         } else {
-            txtPassSignIn.resignFirstResponder()
+            txtfPass.resignFirstResponder()
         }
         return true
     }
     
     fileprivate func observerKeyboard(){
-        NotificationCenter.default.addObserver(self, selector: #selector(SignInViewController.keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: self.view.window)
-        NotificationCenter.default.addObserver(self, selector: #selector(SignInViewController.keyboardWillHide), name:NSNotification.Name.UIKeyboardWillHide, object: self.view.window)
+        NotificationCenter.default.addObserver(self, selector: #selector(LogInViewController.keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: self.view.window)
+        NotificationCenter.default.addObserver(self, selector: #selector(LogInViewController.keyboardWillHide), name:NSNotification.Name.UIKeyboardWillHide, object: self.view.window)
     }
     //DismissKeyboard
     func DismissKeyboard(){

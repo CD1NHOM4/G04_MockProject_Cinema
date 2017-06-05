@@ -8,19 +8,18 @@
 
 import UIKit
 import Firebase
-//import MBProgressHUD
+import MBProgressHUD
 
 class UserInfoViewController: UIViewController {
     
     
-    @IBOutlet weak var txtFullName: LoginTextField!
+    @IBOutlet weak var txtFFullName: UITextField!
+    @IBOutlet weak var txtFEmail: UITextField!
     
-    @IBOutlet weak var txtEmail: LoginTextField!
+    @IBOutlet weak var txtFPhone: UITextField!
+    @IBOutlet weak var txtFAddress: UITextField!
     
-    @IBOutlet weak var txtAddress: LoginTextField!
-    @IBOutlet weak var txtPhone: LoginTextField!
-    
-    @IBOutlet weak var txtBalance: LoginTextField!
+    @IBOutlet weak var txtBalance: UITextField!
     
     var mDatabase: DatabaseReference!
     var loadingNotification: MBProgressHUD!
@@ -45,10 +44,10 @@ class UserInfoViewController: UIViewController {
                     let phone = user["phone"] as? String ?? ""
                     let balance = String(user["balance"] as? Double ?? 0)
                     
-                    self.txtFullName.text! = fullName
-                    self.txtEmail.text! = email
-                    self.txtAddress.text! = address
-                    self.txtPhone.text! = phone
+                    self.txtFFullName.text! = fullName
+                    self.txtFEmail.text! = email
+                    self.txtFAddress.text! = address
+                    self.txtFPhone.text! = phone
                     self.txtBalance.text! = balance
                     
                     self.userToMove = User.init(fullName: fullName, email: email, address: address, balance: Double(balance)!, password: user["password"] as? String ?? "" , phone: phone, uid: uid)

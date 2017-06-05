@@ -12,19 +12,21 @@ import MBProgressHUD
 
 class RegisterViewController: UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var txtEmailSignUp: LoginTextField!
-    @IBOutlet weak var txtPassSignUp: LoginTextField!
-    @IBOutlet weak var txtConfirmSignUp: LoginTextField!
-    @IBOutlet weak var txtAddressSignUp: LoginTextField!
-    @IBOutlet weak var txtPhoneSignUp: LoginTextField!
-    @IBOutlet weak var txtFullNameSignUp: LoginTextField!
+    @IBOutlet weak var gh: UITextField!
+    @IBOutlet weak var txtFFullName: UITextField!
+    @IBOutlet weak var txtFEmail: UITextField!
+    @IBOutlet weak var txtFPass: UITextField!
+    @IBOutlet weak var txtFConfirmPass: UITextField!
+    @IBOutlet weak var txtFAddress: UITextField!
+    @IBOutlet weak var txtFPhone: UITextField!
+    
     
     var mDatabase: DatabaseReference!
     var loadingNotification: MBProgressHUD!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let dismiss: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SignInViewController.DismissKeyboard))
+        let dismiss: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LogInViewController.DismissKeyboard))
         view.addGestureRecognizer(dismiss)
         observerKeyboard()
         //addDoneButtonOnKeyboard()
@@ -38,12 +40,12 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func btnRegister_Act(_ sender: Any) {
         var result: Bool = true
-        let email: String = txtEmailSignUp.text!
-        let password: String = txtPassSignUp.text!
-        let phone: String = txtPhoneSignUp.text!
-        let confirmPass: String = txtConfirmSignUp.text!
-        let address: String = txtAddressSignUp.text!
-        let fullName: String = txtFullNameSignUp.text!
+        let email: String = txtFEmail.text!
+        let password: String = txtFPass.text!
+        let phone: String = txtFPhone.text!
+        let confirmPass: String = txtFConfirmPass.text!
+        let address: String = txtFAddress.text!
+        let fullName: String = txtFFullName.text!
         
         if (email.isEmpty || password.isEmpty || phone.isEmpty || confirmPass.isEmpty || address.isEmpty || fullName.isEmpty){
             showAlertDialog(message: "Hãy điền đầy đủ thông tin");
@@ -74,7 +76,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                     self.hideProgress()
                     if error == nil {
                         let dataUser = [
-                            "uid": user?.uid,
+                            "uid": user?.uid ?? <#default value#>,
                             "email": email,
                             "phone": phone,
                             "address": address,
@@ -124,18 +126,18 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     //MARK: - Show, Hide Keyboard
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        txtEmailSignUp.resignFirstResponder()
-        txtPassSignUp.resignFirstResponder()
-        txtConfirmSignUp.resignFirstResponder()
-        txtAddressSignUp.resignFirstResponder()
-        txtPhoneSignUp.resignFirstResponder()
-        txtFullNameSignUp.resignFirstResponder()
+        txtFEmail.resignFirstResponder()
+        txtFPass.resignFirstResponder()
+        txtFConfirmPass.resignFirstResponder()
+        txtFAddress.resignFirstResponder()
+        txtFPhone.resignFirstResponder()
+        txtFFullName.resignFirstResponder()
         return true
     }
     
     fileprivate func observerKeyboard(){
-        NotificationCenter.default.addObserver(self, selector: #selector(SignInViewController.keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: self.view.window)
-        NotificationCenter.default.addObserver(self, selector: #selector(SignInViewController.keyboardWillHide), name:NSNotification.Name.UIKeyboardWillHide, object: self.view.window)
+        NotificationCenter.default.addObserver(self, selector: #selector(LogInViewController.keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: self.view.window)
+        NotificationCenter.default.addObserver(self, selector: #selector(LogInViewController.keyboardWillHide), name:NSNotification.Name.UIKeyboardWillHide, object: self.view.window)
     }
     
     func DismissKeyboard(){

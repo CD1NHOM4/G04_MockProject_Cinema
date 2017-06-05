@@ -9,11 +9,4 @@
 import Foundation
 
 class Movie {
-    var filmInfo: MovieInfo
-    //var showTime: ShowTime
-    
-    init(filmInfo: FilmInfo, showTime: ShowTime) {
-        self.filmInfo = filmInfo
-        self.showTime = showTime
-    }
 }
