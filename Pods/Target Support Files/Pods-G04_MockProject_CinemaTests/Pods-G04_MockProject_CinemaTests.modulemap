@@ -1,0 +1,6 @@
+framework module Pods_G04_MockProject_CinemaTests {
+  umbrella header "Pods-G04_MockProject_CinemaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -26,6 +26,68 @@
 		05707DB51EE56E64000DAF29 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05707DB41EE56E64000DAF29 /* ForgotViewController.swift */; };
 		05707DB71EE5987E000DAF29 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05707DB61EE5987E000DAF29 /* Validate.swift */; };
 		05707DBB1EE59988000DAF29 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05707DBA1EE59988000DAF29 /* UserProfileViewController.swift */; };
+		0598749E1EE5D502009B9146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0598741D1EE5D501009B9146 /* Podfile */; };
+		0598749F1EE5D502009B9146 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 0598741E1EE5D501009B9146 /* Podfile.lock */; };
+		059874A01EE5D502009B9146 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 059874251EE5D501009B9146 /* README.md */; };
+		059874A11EE5D502009B9146 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874281EE5D501009B9146 /* FirebaseAnalytics.framework */; };
+		059874A21EE5D502009B9146 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 0598742A1EE5D501009B9146 /* CHANGELOG.md */; };
+		059874A31EE5D502009B9146 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0598742C1EE5D501009B9146 /* FirebaseAuth.framework */; };
+		059874A41EE5D502009B9146 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0598742D1EE5D501009B9146 /* README.md */; };
+		059874A51EE5D502009B9146 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874301EE5D501009B9146 /* FirebaseCore.framework */; };
+		059874A61EE5D502009B9146 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874311EE5D501009B9146 /* FirebaseCoreDiagnostics.framework */; };
+		059874A71EE5D502009B9146 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874321EE5D501009B9146 /* FirebaseNanoPB.framework */; };
+		059874A81EE5D502009B9146 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874351EE5D501009B9146 /* FirebaseDatabase.framework */; };
+		059874A91EE5D502009B9146 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 059874371EE5D501009B9146 /* CHANGELOG.md */; };
+		059874AA1EE5D502009B9146 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059874391EE5D501009B9146 /* FirebaseInstanceID.framework */; };
+		059874AB1EE5D502009B9146 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0598743A1EE5D501009B9146 /* README.md */; };
+		059874AC1EE5D502009B9146 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874421EE5D502009B9146 /* GTMNSData+zlib.m */; };
+		059874AD1EE5D502009B9146 /* GTMNSDictionary+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874441EE5D502009B9146 /* GTMNSDictionary+URLArguments.m */; };
+		059874AE1EE5D502009B9146 /* GTMNSString+URLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874461EE5D502009B9146 /* GTMNSString+URLArguments.m */; };
+		059874AF1EE5D502009B9146 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 059874481EE5D502009B9146 /* LICENSE */; };
+		059874B01EE5D502009B9146 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 059874491EE5D502009B9146 /* README.md */; };
+		059874B11EE5D502009B9146 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0598744B1EE5D502009B9146 /* LICENSE */; };
+		059874B21EE5D502009B9146 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0598744C1EE5D502009B9146 /* README.md */; };
+		059874B31EE5D502009B9146 /* GTMSessionFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598744F1EE5D502009B9146 /* GTMSessionFetcher.m */; };
+		059874B41EE5D502009B9146 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874511EE5D502009B9146 /* GTMSessionFetcherLogging.m */; };
+		059874B51EE5D502009B9146 /* GTMSessionFetcherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874531EE5D502009B9146 /* GTMSessionFetcherService.m */; };
+		059874B61EE5D502009B9146 /* GTMSessionUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874551EE5D502009B9146 /* GTMSessionUploadFetcher.m */; };
+		059874B71EE5D502009B9146 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 0598745E1EE5D502009B9146 /* Manifest.lock */; };
+		059874B81EE5D502009B9146 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 059874601EE5D502009B9146 /* LICENSE */; };
+		059874B91EE5D502009B9146 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874621EE5D502009B9146 /* MBProgressHUD.m */; };
+		059874BA1EE5D502009B9146 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = 059874631EE5D502009B9146 /* README.mdown */; };
+		059874BB1EE5D502009B9146 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874691EE5D502009B9146 /* GoogleToolboxForMac-dummy.m */; };
+		059874BC1EE5D502009B9146 /* GoogleToolboxForMac.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0598746D1EE5D502009B9146 /* GoogleToolboxForMac.xcconfig */; };
+		059874BD1EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0598746E1EE5D502009B9146 /* Info.plist */; };
+		059874BE1EE5D502009B9146 /* GTMSessionFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874701EE5D502009B9146 /* GTMSessionFetcher-dummy.m */; };
+		059874BF1EE5D502009B9146 /* GTMSessionFetcher.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 059874741EE5D502009B9146 /* GTMSessionFetcher.xcconfig */; };
+		059874C01EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874751EE5D502009B9146 /* Info.plist */; };
+		059874C11EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874771EE5D502009B9146 /* Info.plist */; };
+		059874C21EE5D502009B9146 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874781EE5D502009B9146 /* MBProgressHUD-dummy.m */; };
+		059874C31EE5D502009B9146 /* MBProgressHUD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0598747C1EE5D502009B9146 /* MBProgressHUD.xcconfig */; };
+		059874C41EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0598747E1EE5D502009B9146 /* Info.plist */; };
+		059874C51EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 0598747F1EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.markdown */; };
+		059874C61EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874801EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.plist */; };
+		059874C71EE5D502009B9146 /* Pods-G04_MockProject_Cinema-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874811EE5D502009B9146 /* Pods-G04_MockProject_Cinema-dummy.m */; };
+		059874C81EE5D502009B9146 /* Pods-G04_MockProject_Cinema-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 059874821EE5D502009B9146 /* Pods-G04_MockProject_Cinema-frameworks.sh */; };
+		059874C91EE5D502009B9146 /* Pods-G04_MockProject_Cinema-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 059874831EE5D502009B9146 /* Pods-G04_MockProject_Cinema-resources.sh */; };
+		059874CA1EE5D502009B9146 /* Pods-G04_MockProject_Cinema.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 059874851EE5D502009B9146 /* Pods-G04_MockProject_Cinema.debug.xcconfig */; };
+		059874CB1EE5D502009B9146 /* Pods-G04_MockProject_Cinema.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 059874871EE5D502009B9146 /* Pods-G04_MockProject_Cinema.release.xcconfig */; };
+		059874CC1EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874891EE5D502009B9146 /* Info.plist */; };
+		059874CD1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 0598748A1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.markdown */; };
+		059874CE1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0598748B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.plist */; };
+		059874CF1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0598748C1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-dummy.m */; };
+		059874D01EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0598748D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-frameworks.sh */; };
+		059874D11EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0598748E1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-resources.sh */; };
+		059874D21EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 059874901EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.debug.xcconfig */; };
+		059874D31EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 059874921EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.release.xcconfig */; };
+		059874D41EE5D502009B9146 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874941EE5D502009B9146 /* Info.plist */; };
+		059874D51EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = 059874951EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown */; };
+		059874D61EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 059874961EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.plist */; };
+		059874D71EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059874971EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-dummy.m */; };
+		059874D81EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = 059874981EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-frameworks.sh */; };
+		059874D91EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 059874991EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-resources.sh */; };
+		059874DA1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0598749B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig */; };
+		059874DB1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0598749D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */; };
 		4395399697B32DD951A5BBE3 /* Pods_G04_MockProject_CinemaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 321770CC10AED339454ADB66 /* Pods_G04_MockProject_CinemaUITests.framework */; };
 		4E7B8AC20311090973652EF7 /* Pods_G04_MockProject_CinemaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22053C3D2AB7B2FEB877F08 /* Pods_G04_MockProject_CinemaTests.framework */; };
 		D2B60234B9376D3DA64EE3F4 /* Pods_G04_MockProject_Cinema.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F468AB57608A1A2B99E1B0D7 /* Pods_G04_MockProject_Cinema.framework */; };
@@ -45,6 +107,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 057078211EE558D1000DAF29;
 			remoteInfo = G04_MockProject_Cinema;
+		};
+		059874E21EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B5876946D3D707A0C01F95EF2D7CBFF;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		059874E41EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39E4B85C80F1A7BE6CC772A8BE04BA2B;
+			remoteInfo = GTMSessionFetcher;
+		};
+		059874E61EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E772F70373386F08685646A0031FAE54;
+			remoteInfo = MBProgressHUD;
+		};
+		059874E81EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D8D5510C2454A9DF036A5AAD2048D62;
+			remoteInfo = "Pods-G04_MockProject_Cinema";
+		};
+		059874EA1EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8973E693BE321C256A61BE2F01A016D0;
+			remoteInfo = "Pods-G04_MockProject_CinemaTests";
+		};
+		059874EC1EE5D502009B9146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 373F9B2AD2D3E1DE3B932582A37051E6;
+			remoteInfo = "Pods-G04_MockProject_CinemaUITests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -74,6 +178,100 @@
 		05707DB41EE56E64000DAF29 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		05707DB61EE5987E000DAF29 /* Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		05707DBA1EE59988000DAF29 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		0598741D1EE5D501009B9146 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0598741E1EE5D501009B9146 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		059874231EE5D501009B9146 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		059874241EE5D501009B9146 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		059874251EE5D501009B9146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		059874281EE5D501009B9146 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		0598742A1EE5D501009B9146 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		0598742C1EE5D501009B9146 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		0598742D1EE5D501009B9146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		059874301EE5D501009B9146 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		059874311EE5D501009B9146 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		059874321EE5D501009B9146 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		059874351EE5D501009B9146 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		059874371EE5D501009B9146 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		059874391EE5D501009B9146 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		0598743A1EE5D501009B9146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0598743D1EE5D501009B9146 /* GTMDebugSelectorValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDebugSelectorValidation.h; sourceTree = "<group>"; };
+		0598743E1EE5D501009B9146 /* GTMDebugThreadValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDebugThreadValidation.h; sourceTree = "<group>"; };
+		0598743F1EE5D502009B9146 /* GTMMethodCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMethodCheck.h; sourceTree = "<group>"; };
+		059874411EE5D502009B9146 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		059874421EE5D502009B9146 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		059874431EE5D502009B9146 /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		059874441EE5D502009B9146 /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		059874451EE5D502009B9146 /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		059874461EE5D502009B9146 /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		059874471EE5D502009B9146 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		059874481EE5D502009B9146 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		059874491EE5D502009B9146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0598744B1EE5D502009B9146 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0598744C1EE5D502009B9146 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0598744E1EE5D502009B9146 /* GTMSessionFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSessionFetcher.h; sourceTree = "<group>"; };
+		0598744F1EE5D502009B9146 /* GTMSessionFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSessionFetcher.m; sourceTree = "<group>"; };
+		059874501EE5D502009B9146 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
+		059874511EE5D502009B9146 /* GTMSessionFetcherLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSessionFetcherLogging.m; sourceTree = "<group>"; };
+		059874521EE5D502009B9146 /* GTMSessionFetcherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSessionFetcherService.h; sourceTree = "<group>"; };
+		059874531EE5D502009B9146 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSessionFetcherService.m; sourceTree = "<group>"; };
+		059874541EE5D502009B9146 /* GTMSessionUploadFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSessionUploadFetcher.h; sourceTree = "<group>"; };
+		059874551EE5D502009B9146 /* GTMSessionUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSessionUploadFetcher.m; sourceTree = "<group>"; };
+		059874591EE5D502009B9146 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		0598745C1EE5D502009B9146 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		0598745E1EE5D502009B9146 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		059874601EE5D502009B9146 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		059874611EE5D502009B9146 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		059874621EE5D502009B9146 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		059874631EE5D502009B9146 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		059874641EE5D502009B9146 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		059874691EE5D502009B9146 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		0598746A1EE5D502009B9146 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		0598746B1EE5D502009B9146 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		0598746C1EE5D502009B9146 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		0598746D1EE5D502009B9146 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		0598746E1EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059874701EE5D502009B9146 /* GTMSessionFetcher-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMSessionFetcher-dummy.m"; sourceTree = "<group>"; };
+		059874711EE5D502009B9146 /* GTMSessionFetcher-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-prefix.pch"; sourceTree = "<group>"; };
+		059874721EE5D502009B9146 /* GTMSessionFetcher-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMSessionFetcher-umbrella.h"; sourceTree = "<group>"; };
+		059874731EE5D502009B9146 /* GTMSessionFetcher.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = GTMSessionFetcher.modulemap; sourceTree = "<group>"; };
+		059874741EE5D502009B9146 /* GTMSessionFetcher.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = GTMSessionFetcher.xcconfig; sourceTree = "<group>"; };
+		059874751EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059874771EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059874781EE5D502009B9146 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		059874791EE5D502009B9146 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		0598747A1EE5D502009B9146 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		0598747B1EE5D502009B9146 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		0598747C1EE5D502009B9146 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0598747E1EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0598747F1EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-G04_MockProject_Cinema-acknowledgements.markdown"; sourceTree = "<group>"; };
+		059874801EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-G04_MockProject_Cinema-acknowledgements.plist"; sourceTree = "<group>"; };
+		059874811EE5D502009B9146 /* Pods-G04_MockProject_Cinema-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-G04_MockProject_Cinema-dummy.m"; sourceTree = "<group>"; };
+		059874821EE5D502009B9146 /* Pods-G04_MockProject_Cinema-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_Cinema-frameworks.sh"; sourceTree = "<group>"; };
+		059874831EE5D502009B9146 /* Pods-G04_MockProject_Cinema-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_Cinema-resources.sh"; sourceTree = "<group>"; };
+		059874841EE5D502009B9146 /* Pods-G04_MockProject_Cinema-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-G04_MockProject_Cinema-umbrella.h"; sourceTree = "<group>"; };
+		059874851EE5D502009B9146 /* Pods-G04_MockProject_Cinema.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_Cinema.debug.xcconfig"; sourceTree = "<group>"; };
+		059874861EE5D502009B9146 /* Pods-G04_MockProject_Cinema.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-G04_MockProject_Cinema.modulemap"; sourceTree = "<group>"; };
+		059874871EE5D502009B9146 /* Pods-G04_MockProject_Cinema.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_Cinema.release.xcconfig"; sourceTree = "<group>"; };
+		059874891EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0598748A1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-G04_MockProject_CinemaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0598748B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-G04_MockProject_CinemaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0598748C1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-G04_MockProject_CinemaTests-dummy.m"; sourceTree = "<group>"; };
+		0598748D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_CinemaTests-frameworks.sh"; sourceTree = "<group>"; };
+		0598748E1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_CinemaTests-resources.sh"; sourceTree = "<group>"; };
+		0598748F1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-G04_MockProject_CinemaTests-umbrella.h"; sourceTree = "<group>"; };
+		059874901EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_CinemaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		059874911EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-G04_MockProject_CinemaTests.modulemap"; sourceTree = "<group>"; };
+		059874921EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_CinemaTests.release.xcconfig"; sourceTree = "<group>"; };
+		059874941EE5D502009B9146 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059874951EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		059874961EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-G04_MockProject_CinemaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		059874971EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-G04_MockProject_CinemaUITests-dummy.m"; sourceTree = "<group>"; };
+		059874981EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_CinemaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		059874991EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-G04_MockProject_CinemaUITests-resources.sh"; sourceTree = "<group>"; };
+		0598749A1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-G04_MockProject_CinemaUITests-umbrella.h"; sourceTree = "<group>"; };
+		0598749B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_CinemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0598749C1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-G04_MockProject_CinemaUITests.modulemap"; sourceTree = "<group>"; };
+		0598749D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_CinemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		17FC020967E59E565E5515ED /* Pods-G04_MockProject_CinemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_CinemaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_CinemaTests/Pods-G04_MockProject_CinemaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		321770CC10AED339454ADB66 /* Pods_G04_MockProject_CinemaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_G04_MockProject_CinemaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6D14839278BD4529D38067 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_CinemaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_CinemaUITests/Pods-G04_MockProject_CinemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +288,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059874A81EE5D502009B9146 /* FirebaseDatabase.framework in Frameworks */,
+				059874A51EE5D502009B9146 /* FirebaseCore.framework in Frameworks */,
+				059874A31EE5D502009B9146 /* FirebaseAuth.framework in Frameworks */,
+				059874AA1EE5D502009B9146 /* FirebaseInstanceID.framework in Frameworks */,
+				059874A61EE5D502009B9146 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				059874A71EE5D502009B9146 /* FirebaseNanoPB.framework in Frameworks */,
+				059874A11EE5D502009B9146 /* FirebaseAnalytics.framework in Frameworks */,
 				D2B60234B9376D3DA64EE3F4 /* Pods_G04_MockProject_Cinema.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +321,9 @@
 		057078191EE558D1000DAF29 = {
 			isa = PBXGroup;
 			children = (
+				0598741D1EE5D501009B9146 /* Podfile */,
+				0598741E1EE5D501009B9146 /* Podfile.lock */,
+				0598741F1EE5D501009B9146 /* Pods */,
 				057078241EE558D1000DAF29 /* G04_MockProject_Cinema */,
 				057078391EE558D1000DAF29 /* G04_MockProject_CinemaTests */,
 				057078441EE558D1000DAF29 /* G04_MockProject_CinemaUITests */,
@@ -240,6 +448,374 @@
 			children = (
 			);
 			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		0598741F1EE5D501009B9146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				059874201EE5D501009B9146 /* Firebase */,
+				059874261EE5D501009B9146 /* FirebaseAnalytics */,
+				059874291EE5D501009B9146 /* FirebaseAuth */,
+				0598742E1EE5D501009B9146 /* FirebaseCore */,
+				059874331EE5D501009B9146 /* FirebaseDatabase */,
+				059874361EE5D501009B9146 /* FirebaseInstanceID */,
+				0598743B1EE5D501009B9146 /* GoogleToolboxForMac */,
+				0598744A1EE5D502009B9146 /* GTMSessionFetcher */,
+				059874561EE5D502009B9146 /* Headers */,
+				0598745D1EE5D502009B9146 /* Local Podspecs */,
+				0598745E1EE5D502009B9146 /* Manifest.lock */,
+				0598745F1EE5D502009B9146 /* MBProgressHUD */,
+				059874641EE5D502009B9146 /* Pods.xcodeproj */,
+				059874671EE5D502009B9146 /* Target Support Files */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		059874201EE5D501009B9146 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				059874211EE5D501009B9146 /* Core */,
+				059874251EE5D501009B9146 /* README.md */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		059874211EE5D501009B9146 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				059874221EE5D501009B9146 /* Sources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		059874221EE5D501009B9146 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				059874231EE5D501009B9146 /* Firebase.h */,
+				059874241EE5D501009B9146 /* module.modulemap */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		059874261EE5D501009B9146 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				059874271EE5D501009B9146 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		059874271EE5D501009B9146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059874281EE5D501009B9146 /* FirebaseAnalytics.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		059874291EE5D501009B9146 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				0598742A1EE5D501009B9146 /* CHANGELOG.md */,
+				0598742B1EE5D501009B9146 /* Frameworks */,
+				0598742D1EE5D501009B9146 /* README.md */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		0598742B1EE5D501009B9146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0598742C1EE5D501009B9146 /* FirebaseAuth.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		0598742E1EE5D501009B9146 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				0598742F1EE5D501009B9146 /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		0598742F1EE5D501009B9146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059874301EE5D501009B9146 /* FirebaseCore.framework */,
+				059874311EE5D501009B9146 /* FirebaseCoreDiagnostics.framework */,
+				059874321EE5D501009B9146 /* FirebaseNanoPB.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		059874331EE5D501009B9146 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				059874341EE5D501009B9146 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		059874341EE5D501009B9146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059874351EE5D501009B9146 /* FirebaseDatabase.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		059874361EE5D501009B9146 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				059874371EE5D501009B9146 /* CHANGELOG.md */,
+				059874381EE5D501009B9146 /* Frameworks */,
+				0598743A1EE5D501009B9146 /* README.md */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		059874381EE5D501009B9146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059874391EE5D501009B9146 /* FirebaseInstanceID.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		0598743B1EE5D501009B9146 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				0598743C1EE5D501009B9146 /* DebugUtils */,
+				059874401EE5D502009B9146 /* Foundation */,
+				059874471EE5D502009B9146 /* GTMDefines.h */,
+				059874481EE5D502009B9146 /* LICENSE */,
+				059874491EE5D502009B9146 /* README.md */,
+			);
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		0598743C1EE5D501009B9146 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				0598743D1EE5D501009B9146 /* GTMDebugSelectorValidation.h */,
+				0598743E1EE5D501009B9146 /* GTMDebugThreadValidation.h */,
+				0598743F1EE5D502009B9146 /* GTMMethodCheck.h */,
+			);
+			path = DebugUtils;
+			sourceTree = "<group>";
+		};
+		059874401EE5D502009B9146 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				059874411EE5D502009B9146 /* GTMNSData+zlib.h */,
+				059874421EE5D502009B9146 /* GTMNSData+zlib.m */,
+				059874431EE5D502009B9146 /* GTMNSDictionary+URLArguments.h */,
+				059874441EE5D502009B9146 /* GTMNSDictionary+URLArguments.m */,
+				059874451EE5D502009B9146 /* GTMNSString+URLArguments.h */,
+				059874461EE5D502009B9146 /* GTMNSString+URLArguments.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		0598744A1EE5D502009B9146 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				0598744B1EE5D502009B9146 /* LICENSE */,
+				0598744C1EE5D502009B9146 /* README.md */,
+				0598744D1EE5D502009B9146 /* Source */,
+			);
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		0598744D1EE5D502009B9146 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0598744E1EE5D502009B9146 /* GTMSessionFetcher.h */,
+				0598744F1EE5D502009B9146 /* GTMSessionFetcher.m */,
+				059874501EE5D502009B9146 /* GTMSessionFetcherLogging.h */,
+				059874511EE5D502009B9146 /* GTMSessionFetcherLogging.m */,
+				059874521EE5D502009B9146 /* GTMSessionFetcherService.h */,
+				059874531EE5D502009B9146 /* GTMSessionFetcherService.m */,
+				059874541EE5D502009B9146 /* GTMSessionUploadFetcher.h */,
+				059874551EE5D502009B9146 /* GTMSessionUploadFetcher.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		059874561EE5D502009B9146 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				059874571EE5D502009B9146 /* Private */,
+				0598745A1EE5D502009B9146 /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		059874571EE5D502009B9146 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				059874581EE5D502009B9146 /* Firebase */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		059874581EE5D502009B9146 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				059874591EE5D502009B9146 /* Firebase.h */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0598745A1EE5D502009B9146 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0598745B1EE5D502009B9146 /* Firebase */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0598745B1EE5D502009B9146 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0598745C1EE5D502009B9146 /* Firebase.h */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0598745D1EE5D502009B9146 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		0598745F1EE5D502009B9146 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				059874601EE5D502009B9146 /* LICENSE */,
+				059874611EE5D502009B9146 /* MBProgressHUD.h */,
+				059874621EE5D502009B9146 /* MBProgressHUD.m */,
+				059874631EE5D502009B9146 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		059874651EE5D502009B9146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059874E31EE5D502009B9146 /* GoogleToolboxForMac.framework */,
+				059874E51EE5D502009B9146 /* GTMSessionFetcher.framework */,
+				059874E71EE5D502009B9146 /* MBProgressHUD.framework */,
+				059874E91EE5D502009B9146 /* Pods_G04_MockProject_Cinema.framework */,
+				059874EB1EE5D502009B9146 /* Pods_G04_MockProject_CinemaTests.framework */,
+				059874ED1EE5D502009B9146 /* Pods_G04_MockProject_CinemaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059874671EE5D502009B9146 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				059874681EE5D502009B9146 /* GoogleToolboxForMac */,
+				0598746F1EE5D502009B9146 /* GTMSessionFetcher */,
+				059874761EE5D502009B9146 /* MBProgressHUD */,
+				0598747D1EE5D502009B9146 /* Pods-G04_MockProject_Cinema */,
+				059874881EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests */,
+				059874931EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		059874681EE5D502009B9146 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				059874691EE5D502009B9146 /* GoogleToolboxForMac-dummy.m */,
+				0598746A1EE5D502009B9146 /* GoogleToolboxForMac-prefix.pch */,
+				0598746B1EE5D502009B9146 /* GoogleToolboxForMac-umbrella.h */,
+				0598746C1EE5D502009B9146 /* GoogleToolboxForMac.modulemap */,
+				0598746D1EE5D502009B9146 /* GoogleToolboxForMac.xcconfig */,
+				0598746E1EE5D502009B9146 /* Info.plist */,
+			);
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		0598746F1EE5D502009B9146 /* GTMSessionFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				059874701EE5D502009B9146 /* GTMSessionFetcher-dummy.m */,
+				059874711EE5D502009B9146 /* GTMSessionFetcher-prefix.pch */,
+				059874721EE5D502009B9146 /* GTMSessionFetcher-umbrella.h */,
+				059874731EE5D502009B9146 /* GTMSessionFetcher.modulemap */,
+				059874741EE5D502009B9146 /* GTMSessionFetcher.xcconfig */,
+				059874751EE5D502009B9146 /* Info.plist */,
+			);
+			path = GTMSessionFetcher;
+			sourceTree = "<group>";
+		};
+		059874761EE5D502009B9146 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				059874771EE5D502009B9146 /* Info.plist */,
+				059874781EE5D502009B9146 /* MBProgressHUD-dummy.m */,
+				059874791EE5D502009B9146 /* MBProgressHUD-prefix.pch */,
+				0598747A1EE5D502009B9146 /* MBProgressHUD-umbrella.h */,
+				0598747B1EE5D502009B9146 /* MBProgressHUD.modulemap */,
+				0598747C1EE5D502009B9146 /* MBProgressHUD.xcconfig */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0598747D1EE5D502009B9146 /* Pods-G04_MockProject_Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				0598747E1EE5D502009B9146 /* Info.plist */,
+				0598747F1EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.markdown */,
+				059874801EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.plist */,
+				059874811EE5D502009B9146 /* Pods-G04_MockProject_Cinema-dummy.m */,
+				059874821EE5D502009B9146 /* Pods-G04_MockProject_Cinema-frameworks.sh */,
+				059874831EE5D502009B9146 /* Pods-G04_MockProject_Cinema-resources.sh */,
+				059874841EE5D502009B9146 /* Pods-G04_MockProject_Cinema-umbrella.h */,
+				059874851EE5D502009B9146 /* Pods-G04_MockProject_Cinema.debug.xcconfig */,
+				059874861EE5D502009B9146 /* Pods-G04_MockProject_Cinema.modulemap */,
+				059874871EE5D502009B9146 /* Pods-G04_MockProject_Cinema.release.xcconfig */,
+			);
+			path = "Pods-G04_MockProject_Cinema";
+			sourceTree = "<group>";
+		};
+		059874881EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				059874891EE5D502009B9146 /* Info.plist */,
+				0598748A1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.markdown */,
+				0598748B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.plist */,
+				0598748C1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-dummy.m */,
+				0598748D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-frameworks.sh */,
+				0598748E1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-resources.sh */,
+				0598748F1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-umbrella.h */,
+				059874901EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.debug.xcconfig */,
+				059874911EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.modulemap */,
+				059874921EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.release.xcconfig */,
+			);
+			path = "Pods-G04_MockProject_CinemaTests";
+			sourceTree = "<group>";
+		};
+		059874931EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				059874941EE5D502009B9146 /* Info.plist */,
+				059874951EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown */,
+				059874961EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.plist */,
+				059874971EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-dummy.m */,
+				059874981EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-frameworks.sh */,
+				059874991EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-resources.sh */,
+				0598749A1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-umbrella.h */,
+				0598749B1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig */,
+				0598749C1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.modulemap */,
+				0598749D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */,
+			);
+			path = "Pods-G04_MockProject_CinemaUITests";
 			sourceTree = "<group>";
 		};
 		0F5B7E050B510C00E3C17130 /* Frameworks */ = {
@@ -367,6 +943,12 @@
 			mainGroup = 057078191EE558D1000DAF29;
 			productRefGroup = 057078231EE558D1000DAF29 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 059874651EE5D502009B9146 /* Products */;
+					ProjectRef = 059874641EE5D502009B9146 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				057078211EE558D1000DAF29 /* G04_MockProject_Cinema */,
@@ -376,16 +958,91 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		059874E31EE5D502009B9146 /* GoogleToolboxForMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GoogleToolboxForMac.framework;
+			remoteRef = 059874E21EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		059874E51EE5D502009B9146 /* GTMSessionFetcher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcher.framework;
+			remoteRef = 059874E41EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		059874E71EE5D502009B9146 /* MBProgressHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MBProgressHUD.framework;
+			remoteRef = 059874E61EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		059874E91EE5D502009B9146 /* Pods_G04_MockProject_Cinema.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_G04_MockProject_Cinema.framework;
+			remoteRef = 059874E81EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		059874EB1EE5D502009B9146 /* Pods_G04_MockProject_CinemaTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_G04_MockProject_CinemaTests.framework;
+			remoteRef = 059874EA1EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		059874ED1EE5D502009B9146 /* Pods_G04_MockProject_CinemaUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_G04_MockProject_CinemaUITests.framework;
+			remoteRef = 059874EC1EE5D502009B9146 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		057078201EE558D1000DAF29 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059874C11EE5D502009B9146 /* Info.plist in Resources */,
+				0598749E1EE5D502009B9146 /* Podfile in Resources */,
+				059874C91EE5D502009B9146 /* Pods-G04_MockProject_Cinema-resources.sh in Resources */,
+				059874C41EE5D502009B9146 /* Info.plist in Resources */,
 				057078641EE5642B000DAF29 /* GoogleServices.plist in Resources */,
+				059874AF1EE5D502009B9146 /* LICENSE in Resources */,
+				059874DB1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig in Resources */,
+				059874C31EE5D502009B9146 /* MBProgressHUD.xcconfig in Resources */,
+				059874BC1EE5D502009B9146 /* GoogleToolboxForMac.xcconfig in Resources */,
+				059874D41EE5D502009B9146 /* Info.plist in Resources */,
+				059874D61EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.plist in Resources */,
+				059874D91EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-resources.sh in Resources */,
+				059874D21EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.debug.xcconfig in Resources */,
+				059874CC1EE5D502009B9146 /* Info.plist in Resources */,
+				059874C61EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.plist in Resources */,
+				059874D31EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests.release.xcconfig in Resources */,
+				059874BF1EE5D502009B9146 /* GTMSessionFetcher.xcconfig in Resources */,
 				057078301EE558D1000DAF29 /* LaunchScreen.storyboard in Resources */,
+				059874C81EE5D502009B9146 /* Pods-G04_MockProject_Cinema-frameworks.sh in Resources */,
 				05707DAF1EE56848000DAF29 /* Podfile in Resources */,
+				059874D81EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-frameworks.sh in Resources */,
+				059874CB1EE5D502009B9146 /* Pods-G04_MockProject_Cinema.release.xcconfig in Resources */,
+				059874B81EE5D502009B9146 /* LICENSE in Resources */,
+				059874D01EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-frameworks.sh in Resources */,
+				059874CA1EE5D502009B9146 /* Pods-G04_MockProject_Cinema.debug.xcconfig in Resources */,
+				059874C01EE5D502009B9146 /* Info.plist in Resources */,
+				059874B71EE5D502009B9146 /* Manifest.lock in Resources */,
+				059874CE1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.plist in Resources */,
+				059874D11EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-resources.sh in Resources */,
 				0570782D1EE558D1000DAF29 /* Assets.xcassets in Resources */,
+				059874B11EE5D502009B9146 /* LICENSE in Resources */,
 				0570782B1EE558D1000DAF29 /* Main.storyboard in Resources */,
+				0598749F1EE5D502009B9146 /* Podfile.lock in Resources */,
+				059874DA1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig in Resources */,
+				059874BD1EE5D502009B9146 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,14 +1208,39 @@
 				05707DB71EE5987E000DAF29 /* Validate.swift in Sources */,
 				05707DBB1EE59988000DAF29 /* UserProfileViewController.swift in Sources */,
 				057078621EE562B9000DAF29 /* LoginViewController.swift in Sources */,
+				059874C21EE5D502009B9146 /* MBProgressHUD-dummy.m in Sources */,
+				059874B01EE5D502009B9146 /* README.md in Sources */,
+				059874A91EE5D502009B9146 /* CHANGELOG.md in Sources */,
+				059874AD1EE5D502009B9146 /* GTMNSDictionary+URLArguments.m in Sources */,
+				059874AC1EE5D502009B9146 /* GTMNSData+zlib.m in Sources */,
 				057078601EE561A0000DAF29 /* MoviesInfo.swift in Sources */,
+				059874BE1EE5D502009B9146 /* GTMSessionFetcher-dummy.m in Sources */,
+				059874A01EE5D502009B9146 /* README.md in Sources */,
+				059874BA1EE5D502009B9146 /* README.mdown in Sources */,
+				059874B41EE5D502009B9146 /* GTMSessionFetcherLogging.m in Sources */,
+				059874A21EE5D502009B9146 /* CHANGELOG.md in Sources */,
+				059874AE1EE5D502009B9146 /* GTMNSString+URLArguments.m in Sources */,
+				059874B61EE5D502009B9146 /* GTMSessionUploadFetcher.m in Sources */,
+				059874D51EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-acknowledgements.markdown in Sources */,
+				059874B91EE5D502009B9146 /* MBProgressHUD.m in Sources */,
 				0570785C1EE5601A000DAF29 /* User.swift in Sources */,
 				05707DB51EE56E64000DAF29 /* ForgotViewController.swift in Sources */,
+				059874B31EE5D502009B9146 /* GTMSessionFetcher.m in Sources */,
+				059874B51EE5D502009B9146 /* GTMSessionFetcherService.m in Sources */,
 				05707DB11EE56E00000DAF29 /* RegisterViewController.swift in Sources */,
+				059874CD1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-acknowledgements.markdown in Sources */,
 				057078281EE558D1000DAF29 /* ViewController.swift in Sources */,
+				059874AB1EE5D502009B9146 /* README.md in Sources */,
+				059874C71EE5D502009B9146 /* Pods-G04_MockProject_Cinema-dummy.m in Sources */,
+				059874D71EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests-dummy.m in Sources */,
+				059874C51EE5D502009B9146 /* Pods-G04_MockProject_Cinema-acknowledgements.markdown in Sources */,
 				057078581EE55EBB000DAF29 /* Dowloader.swift in Sources */,
+				059874CF1EE5D502009B9146 /* Pods-G04_MockProject_CinemaTests-dummy.m in Sources */,
+				059874BB1EE5D502009B9146 /* GoogleToolboxForMac-dummy.m in Sources */,
 				05707DB31EE56E32000DAF29 /* ChangePasssViewController.swift in Sources */,
+				059874A41EE5D502009B9146 /* README.md in Sources */,
 				057078261EE558D1000DAF29 /* AppDelegate.swift in Sources */,
+				059874B21EE5D502009B9146 /* README.md in Sources */,
 				0570785E1EE56141000DAF29 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +1403,11 @@
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseCore/Frameworks",
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseDatabase/Frameworks",
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
 				);
 				INFOPLIST_FILE = G04_MockProject_Cinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -742,6 +1429,11 @@
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseCore/Frameworks",
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseDatabase/Frameworks",
 					"$(PROJECT_DIR)/G04_MockProject_Cinema/ASSIGMENT/HA/Mock-G03-Cinema-master/Pods/FirebaseInstanceID/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseAuth/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseCore/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseDatabase/Frameworks",
+					"$(PROJECT_DIR)/Pods/FirebaseInstanceID/Frameworks",
 				);
 				INFOPLIST_FILE = G04_MockProject_Cinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -76,7 +76,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                     self.hideProgress()
                     if error == nil {
                         let dataUser = [
-                            "uid": user?.uid ?? <#default value#>,
+                            "uid": user?.uid ?? "guest",
                             "email": email,
                             "phone": phone,
                             "address": address,
