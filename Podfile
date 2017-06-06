@@ -6,10 +6,13 @@ target 'G04_MockProject_Cinema' do
   use_frameworks!
 
   # Pods for G04_MockProject_Cinema
-        pod 'Firebase/Core'
-        pod 'Firebase/Database’
-        pod 'Firebase/Auth'
-        pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
+  pod 'MBProgressHUD', '~> 1.0.0'
+  
 target 'G04_MockProject_CinemaTests' do
     inherit! :search_paths
     # Pods for testing

@@ -178,7 +178,7 @@
 		05707DB41EE56E64000DAF29 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		05707DB61EE5987E000DAF29 /* Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		05707DBA1EE59988000DAF29 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
-		0598741D1EE5D501009B9146 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0598741D1EE5D501009B9146 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0598741E1EE5D501009B9146 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		059874231EE5D501009B9146 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		059874241EE5D501009B9146 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -274,6 +274,7 @@
 		0598749D1EE5D502009B9146 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-G04_MockProject_CinemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		17FC020967E59E565E5515ED /* Pods-G04_MockProject_CinemaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_CinemaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_CinemaTests/Pods-G04_MockProject_CinemaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		321770CC10AED339454ADB66 /* Pods_G04_MockProject_CinemaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_G04_MockProject_CinemaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C5623FB6F83E2D523E9DF5 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_CinemaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_CinemaUITests/Pods-G04_MockProject_CinemaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A6D14839278BD4529D38067 /* Pods-G04_MockProject_CinemaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_CinemaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_CinemaUITests/Pods-G04_MockProject_CinemaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3ED717BDF951BEA000A1AD7 /* Pods-G04_MockProject_Cinema.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-G04_MockProject_Cinema.release.xcconfig"; path = "Pods/Target Support Files/Pods-G04_MockProject_Cinema/Pods-G04_MockProject_Cinema.release.xcconfig"; sourceTree = "<group>"; };
 		B22053C3D2AB7B2FEB877F08 /* Pods_G04_MockProject_CinemaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_G04_MockProject_CinemaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -467,6 +468,7 @@
 				0598745F1EE5D502009B9146 /* MBProgressHUD */,
 				059874641EE5D502009B9146 /* Pods.xcodeproj */,
 				059874671EE5D502009B9146 /* Target Support Files */,
+				33C5623FB6F83E2D523E9DF5 /* Pods-G04_MockProject_CinemaUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
